@@ -17,8 +17,8 @@ class FizzBuzz extends React.Component {
           {this.state.fizzBuzz || this.state.count}
         </h2>
         <div>
-          <button onClick={this.decrement.bind(this)}>Decrease</button>
-          <button onClick={this.increment.bind(this)}>Increase</button>
+          <button onClick={this.decrement.bind(this)}>-</button>
+          <button onClick={this.increment.bind(this)}>+</button>
         </div>
       </div>
     );
